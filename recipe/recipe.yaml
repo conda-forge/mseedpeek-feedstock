@@ -1,6 +1,6 @@
 context:
   name: mseedpeek
-  version: "1.0.0"
+  version: "1.1.0"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://gitlab.com/earthscope/public/epic/passoft/mseedpeek/-/archive/v${{ version }}/mseedpeek-v${{ version }}.tar.gz
-  sha256: 6f99faadfd68dda44a3f2c454c2e5d3223199e071e49233c742b3a4f61313896
+  sha256: 03e075845ab34fdcc2a15a516cf97334a3cce85bdf3635a843d35b15a90b64c5
 
 build:
   noarch: python
